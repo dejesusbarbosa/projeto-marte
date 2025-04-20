@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --cor-01:#141D28; /*cor de fundo*/
+    --cor-02:#FF4500; /* cores do header e do footer*/
+    --cor-03:#FF6347; /*cor de destaque*/
+    --cor-04:#232C38; /*cor de fundo do Main*/
+    --cor-05:#492015c5; /*cor de fundo do parágrafos destacados*/
+    --cor-06:#ff44007b; /*cor de sobra do aside*/
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 65vh;
+}
+
+body{
+    margin: auto;
+    background-color: var(--cor-01);
+    color: white;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: block;
+    background-color: var(--cor-02);
+    padding: 2.8%;
+    text-align: center;
+}
+
+header >h1{
+    font-size: 2.5em;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.386);
+}
+
+header >p{
+    padding-top: 0.5em;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.466);
+}
+
+nav{
+    background-color: var(--cor-02);
+    text-align: center;
+    text-shadow:  0 2px 10px rgba(0, 0, 0, 0.4);
+    padding-bottom: 2%;
+}
+
+nav >a{
+    text-decoration: none;
+    color: white;
+    padding-right: 2.6%;
+}
+
+nav >a:hover{
+    text-decoration: underline;
+}
+
+main{
+    padding-top: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+ main h1, h2{
+    padding-top: 4.6%;
+    padding-bottom: 1.3%;
+    color: var(--cor-03);
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.422);
+}
+
+main p{
+    text-indent: 20px;
+    padding-bottom: 20px;
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 1px;
+    padding: 1.8px;
+    background-color: var(--cor-06);
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+
+strong{
+    border-radius: 1px;
+    padding: 1.8px;
+    background-color: var(--cor-06);
+}
+
+strong:hover{
+    text-decoration: underline;
+}
+
+aside.destaque{
+    padding: 10px;
+    background-color: var(--cor-05);
+    border-radius: 8px;
+}
+
+aside.normal{
+    box-shadow: 0px 0px 10px var(--cor-06);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--cor-04);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+aside#imagem{
+    padding-top: 20px;
+}
+
+div.marte{
+    border-radius: 8px;
+    padding: 25px;
+    background-color: var(--cor-06);
+}
+
+footer{
+    padding: 6px;
+    text-align: center;
+    background-color: black;
+}
+
+footer >a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+footer >a:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}
