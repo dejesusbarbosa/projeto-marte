@@ -15,14 +15,27 @@
 }
 
 img{
+    border-radius: 7px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 65vh;
+    width: 55vh;
 }
 
-div#media {
+#media {
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    background-color: var(--cor-06);
+    display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-media{
+    margin-left: -15px;
+    padding-bottom: 0px;
 }
 
 body{
@@ -111,6 +124,7 @@ strong:hover{
 
 aside.destaque{
     padding: 10px;
+    margin-bottom: 26px;
     background-color: var(--cor-05);
     border-radius: 8px;
 }
