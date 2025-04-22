@@ -21,6 +21,10 @@ img{
     max-width: 65vh;
 }
 
+div#media {
+    text-align: center;
+}
+
 body{
     margin: auto;
     background-color: var(--cor-01);
