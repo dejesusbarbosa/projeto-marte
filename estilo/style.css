@@ -29,7 +29,7 @@
 }
 
 img{
-    border-radius: 7px;
+    border-radius: 3px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -51,6 +51,15 @@ img{
 .top-media{
     margin-left: -15px;
     padding-bottom: 0px;
+}
+
+ul{
+    text-indent: 15px;
+    padding: 7px 20px 10px 20px;
+}
+
+li{
+    padding-bottom: 10px;
 }
 
 body{
@@ -85,7 +94,8 @@ nav{
     background-color: var(--cor-02);
     text-align: center;
     text-shadow:  0 2px 10px rgba(0, 0, 0, 0.4);
-    padding-bottom: 2%;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
 }
 
 nav >a{
@@ -104,9 +114,9 @@ main{
     padding-right: 8%;
 }
 
- main h1, h2{
+ main h1, h2, h3{
     font-family: 'orbitron', arial, sans-serif;
-    padding-top: 4.6%;
+    padding-top: 2%;
     padding-bottom: 1.3%;
     color: var(--cor-03);
     text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.422);
@@ -118,7 +128,7 @@ main p{
 }
 
 main a{
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: bold;
     color: white;
     border-radius: 1px;
@@ -126,18 +136,10 @@ main a{
     background-color: var(--cor-06);
 }
 
-main a:hover{
-    text-decoration: underline;
-}
-
 strong{
     border-radius: 1px;
     padding: 1.8px;
     background-color: var(--cor-06);
-}
-
-strong:hover{
-    text-decoration: underline;
 }
 
 aside.destaque{
@@ -162,7 +164,7 @@ aside#imagem{
 
 div.marte{
     border-radius: 8px;
-    padding: 25px;
+    padding: 20px;
     background-color: var(--cor-06);
 }
 
